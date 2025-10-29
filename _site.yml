@@ -1,0 +1,19 @@
+name: "Alvin Jiao"
+output_dir: "."
+navbar:
+  title: "Alvin Jiao"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: about.html
+  right:
+    - text: "GitHub"
+      href: "https://github.com/alvinqwq512"
+    - text: "Email"
+      href: "mailto:alvinqwq512@gmail.com"
+output:
+  html_document:
+    theme: cerulean
+    toc: false
+    df_print: paged

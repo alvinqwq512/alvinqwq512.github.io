@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Resume</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Alvin Jiao</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">Resume</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/alvinqwq512">GitHub</a>
+</li>
+<li>
+  <a href="mailto:alvinqwq512@gmail.com">Email</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Resume</h1>
+
+</div>
+
+
+<div id="alvin-jiao" class="section level1">
+<h1>Alvin Jiao</h1>
+<p><a href="mailto:alvinqwq512@gmail.com"
+class="email">alvinqwq512@gmail.com</a> | +1 4708553566 | New York</p>
+<p>Education</p>
+<p>Columbia University Aug 2024 – Present GPA: 3.8/4.0 (First Semester)
+New York, USA Certificate Program: Comparative Effectiveness and
+Outcomes Research Relevant Courses: Applied Biostatistics, Applied
+Regression, Analysis of Categorical Variables, Decision Analysis for
+Public Health Practice, Statistical Computing with SAS, Health Economics
+Skills:  Proficient in SAS for data cleaning, regression modeling, and
+statistical analysis  Strong understanding of cost-effectiveness
+analysis and econometric methods in health economics  Capable of
+independently managing the full data analysis workflow, from import and
+cleaning to modeling and reporting  Skilled in communicating complex
+statistical results to non-technical stakeholders through visuals and
+concise narratives</p>
+<p>Emory University Sept 2020 – May 2024 Bachelor of Science in
+Quantitative Science Studies Atlanta, USA GPA: 3.5/4.0 Relevant Courses:
+Machine Learning, Linear Regression, Linear Algebra, Intro to Java,
+Causal Inference, Data Science Computing, Quantitative Finance Skills: 
+Proficient in Java and Python with strong programming fundamentals 
+Solid foundation in linear algebra and probability, applied in machine
+learning and optimization  Experienced in data processing and
+visualization using Excel, Jupyter Notebook, and RStudio  Background in
+quantitative finance, with understanding of asset pricing, risk
+management, and portfolio optimization</p>
+<p>Projects (Emory University)</p>
+<p>Quantitative Science Capstone – In collaboration with Neighborhood
+Nexus. Jan 2024 – Apr 2024  Used Python and Google Maps API to collect
+satellite images of residential rooftops in the Atlanta area  Developed
+an automated classification model using image recognition and machine
+learning to identify damaged or repair-needing roofs  Collaborated on
+data preprocessing, feature extraction, and model training,
+significantly improving classification efficiency and accuracy 
+Successfully delivered insights aligned with Neighborhood Nexus’s
+project goals, supporting decision-making for community improvement
+initiatives</p>
+<p>Internship Experience</p>
+<p>Tencent Technology (Shanghai) Co., Ltd. Jun 2025 – Aug 2025
+Pharmaceutical Key Account Architect Intern, CSIG Shanghai, China 
+Supported digital transformation projects for multinational and local
+pharmaceutical clients by conducting needs assessments, drafting
+solution proposals, and streamlining project delivery  Assisted in
+designing cloud and AI solution modules (e.g., intelligent agent
+platforms, Tencent Health products), contributing to client engagement
+and project implementation  Applied pharmaceutical compliance knowledge
+(GxP, data privacy) to ensure solution design adhered to industry
+regulations and earned client trust  Engaged in B2B communications with
+clients and internal teams, accurately capturing requirements and
+business pain points to inform tailored solutions</p>
+<p>Zhengzhou Commodity Exchange Jun 2024 – Aug 2024 Quantitative
+Research Intern, Commodity Division III Zhengzhou, China  Conducted
+time-series analysis of futures market data (e.g., sugar, cotton) using
+Excel, exploring relationships between price volatility, trading volume,
+and liquidity  Built and refined statistical monitoring models (e.g.,
+moving average deviations, volatility thresholds) for real-time market
+surveillance and policy evaluation  Assisted in automating daily data
+processing pipelines to generate regulatory briefings  Produced daily
+reports highlighting key indicators and abnormal trading patterns to
+support internal risk monitoring  Gained in-depth exposure to futures
+product design, trading mechanisms, and risk control in China’s
+commodity derivatives market</p>
+<p>OneConnect Financial Technology Jun 2023 – Jul 2023 Data Analyst
+Intern, Overseas Business Implementation Division Chengdu, China 
+Collaborated with CIMB Bank (Philippines) and Lazada on the development
+and testing of LazSave, a digital financial solution  Conducted root
+cause analysis for system integration issues and proposed performance
+improvements  Coordinated across development, QA, and business teams to
+ensure seamless system implementation  Gained practical understanding
+of fintech deployment across cross-cultural, multi-national
+environments</p>
+<p>Chinese Academy of Sciences May 2023 – Jun 2023 Student Researcher,
+Institute of Computing Technology Beijing, China  Studied Maximal
+Information Coefficient (MIC), a statistical method for detecting
+relationships in large datasets  Applied MIC to analyze WHO and MLB
+datasets from ExploreData.net, generating written insights for academic
+reporting  Regularly presented research findings and learned to address
+technical challenges in Java implementation</p>
+<p>Zhongda Securities Sep 2020 – Nov 2020 &amp; Mar 2023 – May 2023 Data
+Analytics Intern (Two Terms) Shanghai, China  Conducted in-depth
+research on China’s real estate sector, covering corporate structures,
+demographic trends, and regulatory impacts  Maintained weekly and
+monthly market databases tracking housing transactions, inventory, and
+price trends  Created data-driven reports to support investment
+decisions and strategic client recommendations</p>
+<p>Additional Skills</p>
+<p> Personality: Outgoing, responsible, proactive, with a good sense of
+humor  Communication: Strong interpersonal skills with ability to
+collaborate across diverse teams and disciplines  Learning: Curious and
+quick to learn new tools or concepts; skilled in self-directed learning
+ Languages: English (Fluent), Mandarin Chinese (Native), Korean (Basic
+proficiency)</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

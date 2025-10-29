@@ -1,0 +1,85 @@
+---
+title: "Resume"
+output:
+  html_document:
+    self_contained: true
+---
+
+# Alvin Jiao
+alvinqwq512@gmail.com | +1 4708553566 | New York
+
+Education 
+	
+Columbia University 	Aug 2024 – Present
+GPA: 3.8/4.0 (First Semester)	New York, USA
+Certificate Program: Comparative Effectiveness and Outcomes Research
+Relevant Courses:
+Applied Biostatistics, Applied Regression, Analysis of Categorical Variables, Decision Analysis for Public Health Practice, Statistical Computing with SAS, Health Economics
+Skills:
+	Proficient in SAS for data cleaning, regression modeling, and statistical analysis
+	Strong understanding of cost-effectiveness analysis and econometric methods in health economics
+	Capable of independently managing the full data analysis workflow, from import and cleaning to modeling and reporting
+	Skilled in communicating complex statistical results to non-technical stakeholders through visuals and concise narratives
+
+Emory University	Sept 2020 – May 2024
+Bachelor of Science in Quantitative Science Studies	Atlanta, USA
+GPA: 3.5/4.0
+Relevant Courses:
+Machine Learning, Linear Regression, Linear Algebra, Intro to Java, Causal Inference, Data Science Computing, Quantitative Finance
+Skills:
+	Proficient in Java and Python with strong programming fundamentals
+	Solid foundation in linear algebra and probability, applied in machine learning and optimization
+	Experienced in data processing and visualization using Excel, Jupyter Notebook, and RStudio
+	Background in quantitative finance, with understanding of asset pricing, risk management, and portfolio optimization
+
+Projects (Emory University)
+
+Quantitative Science Capstone – In collaboration with Neighborhood Nexus.              Jan 2024 – Apr 2024
+	Used Python and Google Maps API to collect satellite images of residential rooftops in the Atlanta area
+	Developed an automated classification model using image recognition and machine learning to identify damaged or repair-needing roofs
+	Collaborated on data preprocessing, feature extraction, and model training, significantly improving classification efficiency and accuracy
+	Successfully delivered insights aligned with Neighborhood Nexus’s project goals, supporting decision-making for community improvement initiatives
+
+Internship Experience
+
+Tencent Technology (Shanghai) Co., Ltd.	Jun 2025 – Aug 2025
+Pharmaceutical Key Account Architect Intern, CSIG	Shanghai, China
+	Supported digital transformation projects for multinational and local pharmaceutical clients by conducting needs assessments, drafting solution proposals, and streamlining project delivery
+	Assisted in designing cloud and AI solution modules (e.g., intelligent agent platforms, Tencent Health products), contributing to client engagement and project implementation
+	Applied pharmaceutical compliance knowledge (GxP, data privacy) to ensure solution design adhered to industry regulations and earned client trust
+	Engaged in B2B communications with clients and internal teams, accurately capturing requirements and business pain points to inform tailored solutions
+
+Zhengzhou Commodity Exchange	Jun 2024 – Aug 2024
+Quantitative Research Intern, Commodity Division III	Zhengzhou, China
+	Conducted time-series analysis of futures market data (e.g., sugar, cotton) using Excel, exploring relationships between price volatility, trading volume, and liquidity
+	Built and refined statistical monitoring models (e.g., moving average deviations, volatility thresholds) for real-time market surveillance and policy evaluation
+	Assisted in automating daily data processing pipelines to generate regulatory briefings
+	Produced daily reports highlighting key indicators and abnormal trading patterns to support internal risk monitoring
+	Gained in-depth exposure to futures product design, trading mechanisms, and risk control in China’s commodity derivatives market
+
+OneConnect Financial Technology	Jun 2023 – Jul 2023
+Data Analyst Intern, Overseas Business Implementation Division	Chengdu, China
+	Collaborated with CIMB Bank (Philippines) and Lazada on the development and testing of LazSave, a digital financial solution
+	Conducted root cause analysis for system integration issues and proposed performance improvements
+	Coordinated across development, QA, and business teams to ensure seamless system implementation
+	Gained practical understanding of fintech deployment across cross-cultural, multi-national environments
+
+Chinese Academy of Sciences	May 2023 – Jun 2023
+Student Researcher, Institute of Computing Technology							    Beijing, China
+	Studied Maximal Information Coefficient (MIC), a statistical method for detecting relationships in large datasets
+	Applied MIC to analyze WHO and MLB datasets from ExploreData.net, generating written insights for academic reporting
+	Regularly presented research findings and learned to address technical challenges in Java implementation
+
+Zhongda Securities	Sep 2020 – Nov 2020 & Mar 2023 – May 2023
+Data Analytics Intern (Two Terms)	Shanghai, China
+	Conducted in-depth research on China’s real estate sector, covering corporate structures, demographic trends, and regulatory impacts
+	Maintained weekly and monthly market databases tracking housing transactions, inventory, and price trends
+	Created data-driven reports to support investment decisions and strategic client recommendations
+
+Additional Skills
+
+	Personality: Outgoing, responsible, proactive, with a good sense of humor
+	Communication: Strong interpersonal skills with ability to collaborate across diverse teams and disciplines
+	Learning: Curious and quick to learn new tools or concepts; skilled in self-directed learning
+	Languages: English (Fluent), Mandarin Chinese (Native), Korean (Basic proficiency)
+

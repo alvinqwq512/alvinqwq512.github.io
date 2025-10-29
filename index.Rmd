@@ -1,0 +1,18 @@
+---
+title: "Alvin Jiao's website"
+output:
+  html_document:
+    self_contained: true
+---
+
+## Hi, I'm Alvin 👋
+
+I’m a MPH candidate at Columbia Mailman focused on **AI for health**, and **R/Python data science**.
+
+- 🧰 Tools: R (tidyverse), Python (pandas), Stata, SAS, SQL
+- 📍 Based in [New York]
+
+### Quick Links
+- **Resume** → [about.html](about.html)
+- **GitHub** → <https://github.com/alvinqwq512>
+- **Email** → <mailto:alvinqwq512@gmail.com>
